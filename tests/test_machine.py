@@ -5,7 +5,7 @@ class TestMachine:
     def test_dependencies(self):
         machine = Machine(version='1.0.0')
 
-        assert machine.dependencies == 'prokaryote-1.0.0.jar'
+        assert machine.classes == 'prokaryote-1.0.0.jar'
 
     def test_run(self):
         machine = Machine()
